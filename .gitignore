@@ -1,0 +1,29 @@
+# Credentials and personal configuration
+.env
+.env.*
+!.env.example
+.skylight-tokens-*
+*.pem
+*.key
+
+# Personal exports, sessions, and captures
+import_reminders.py
+imported_ids.json
+*.har
+*cookies*.json
+*tokens*.json
+exports/
+captures/
+private/
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# Python and local tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
