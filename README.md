@@ -20,7 +20,7 @@ The original experiment inspected the web app's request shapes, built this clien
 - Methods for lists, calendar events, and a limited set of chore operations.
 - One token-refresh attempt after an authentication failure.
 - Offline tests using synthetic data and mocked network requests.
-- [API notes](API.md) and [architecture notes](ARCHITECTURE.md).
+- [API notes](API.md) and [automation design notes](ARCHITECTURE.md): IFTTT, Apple Shortcuts, their limits, and a rough Mac-based sync proposal.
 
 There is no automatic Reminders sync, Apple Reminders reader, hosted service, or web portal in this repository. The original personal importer contained private data and is not distributed.
 
